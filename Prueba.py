@@ -13,6 +13,7 @@ if __name__ == '__main__':
     n_commas = original_len // 3 if pos != 0 else (original_len // 3) - 1
     data_range = range(n_commas + 1)
     result = ''
+
     for i in data_range:
         #Avoid comma in first iteration in position 0
         if i == 0 and pos == 0:
